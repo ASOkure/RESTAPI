@@ -1,4 +1,4 @@
-package com.taskforce.moneyapp.services;
+package com.test.aksam.restapiapp.services;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpDelete;
@@ -9,7 +9,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;
 
-import com.moneytransfer.model.User;
+import com.aksam.restapiapp.model.User;
 
 import java.io.IOException;
 import java.net.URI;

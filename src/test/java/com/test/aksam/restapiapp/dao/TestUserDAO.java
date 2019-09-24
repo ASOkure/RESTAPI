@@ -1,13 +1,13 @@
-package com.taskforce.moneyapp.dao;
-
-import com.moneytransfer.dao.DAOFactory;
-import com.moneytransfer.exception.CustomException;
-import com.moneytransfer.model.User;
+package com.test.aksam.restapiapp.dao;
 
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import com.aksam.restapiapp.dao.DAOFactory;
+import com.aksam.restapiapp.exception.CustomException;
+import com.aksam.restapiapp.model.User;
 
 import java.util.List;
 

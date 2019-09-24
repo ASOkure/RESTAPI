@@ -1,9 +1,9 @@
-package com.moneytransfer.dao.impl;
+package com.aksam.restapiapp.dao.impl;
 
-import com.moneytransfer.dao.H2DAOFactory;
-import com.moneytransfer.dao.UserDAO;
-import com.moneytransfer.exception.CustomException;
-import com.moneytransfer.model.User;
+import com.aksam.restapiapp.dao.H2DAOFactory;
+import com.aksam.restapiapp.dao.UserDAO;
+import com.aksam.restapiapp.exception.CustomException;
+import com.aksam.restapiapp.model.User;
 
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.log4j.Logger;

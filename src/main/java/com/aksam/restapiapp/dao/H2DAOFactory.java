@@ -1,12 +1,17 @@
 package com.aksam.restapiapp.dao;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.log4j.Logger;
-import org.eclipse.jetty.io.Connection;
+import org.h2.tools.RunScript;
 
+import com.aksam.restapiapp.dao.impl.AccountDAOImpl;
+import com.aksam.restapiapp.dao.impl.UserDAOImpl;
 import com.aksam.restapiapp.util.Utils;
 
 public class H2DAOFactory extends DAOFactory  {
